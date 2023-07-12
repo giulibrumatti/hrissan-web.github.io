@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(0,5px + 1.5vw);
+}
+
+.btn-hrissan{
+  background-color: #b62f38;
+  color: #fcf9f9;
+}
+
+.btn-hrissan:hover {
+  background-color: #b83a43;
+}
+
+
+#header img {
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+  #header img {
+      width:150px;
+  } 
+}
+
+#header{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main #carousel .carousel-inner img {
+  max-height: 90vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fcf9f9;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#propuesta .img-propuesta{
+  border-radius: 50px;
+}
+
+#nosotros .container-fluid{
+  background-color: #b83a43;
+  color: #fcf9f9;
+}
+
+#nosotros img {
+  max-width: 100%;
+}
+
+#footer {
+  background: linear-gradient(90deg,#b62f38,#b83a43 25%,black);
+}
+
+#footer a, p {
+  color: #fcf9f9;
+}
