@@ -16,13 +16,17 @@
 }
 
 
-#header img {
+.logo {
   width: 250px;
 }
 
 @media (max-width: 600px) {
-  #header img {
+  .logo {
       width:150px;
+  }
+  .overlay .btn{
+    display: block;
+    display: none;
   } 
 }
 
@@ -60,7 +64,7 @@
 }
 
 #nosotros .container-fluid{
-  background-color: #b83a43;
+  background: linear-gradient(90deg,#b62f38,#b83a43,black);
   color: #fcf9f9;
 }
 
@@ -69,9 +73,15 @@
 }
 
 #footer {
-  background: linear-gradient(90deg,#b62f38,#b83a43 25%,black);
+  background-color: black
 }
 
 #footer a, p {
   color: #fcf9f9;
 }
+
+.no-list-style {
+  list-style: none; 
+  padding-left: 0; 
+}
+
