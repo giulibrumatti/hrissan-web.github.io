@@ -15,21 +15,6 @@
   background-color: #b83a43;
 }
 
-
-.logo {
-  width: 250px;
-}
-
-@media (max-width: 600px) {
-  .logo {
-      width:150px;
-  }
-  .overlay .btn{
-    display: block;
-    display: none;
-  } 
-}
-
 #header{
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -85,3 +70,16 @@
   padding-left: 0; 
 }
 
+.logo {
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+      width:150px;
+  }
+  .overlay .btn{
+    display: block;
+    display: none;
+  } 
+}
