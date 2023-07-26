@@ -6,13 +6,17 @@
   font-size: calc(0,5px + 1.5vw);
 }
 
-.btn-hrissan{
-  background-color: #b62f38;
+.btn-hrissan:hover {
+  background-color: #b83a43;
   color: #fcf9f9;
 }
 
-.btn-hrissan:hover {
-  background-color: #b83a43;
+.link-form{
+  color: #b62f38;
+}
+
+.link-form:hover{
+  color: #b83a43;
 }
 
 #header{
@@ -44,17 +48,13 @@
   height: 100%;
 }
 
-#propuesta .img-propuesta{
+.title-style{
+  color: #b62f38;
+  
+}
+
+#nosotros .img-nosotros{
   border-radius: 50px;
-}
-
-#nosotros .container-fluid{
-  background: linear-gradient(90deg,#b62f38,#b83a43,black);
-  color: #fcf9f9;
-}
-
-#nosotros img {
-  max-width: 100%;
 }
 
 #footer {
@@ -64,6 +64,7 @@
 #footer a, p {
   color: #fcf9f9;
 }
+
 
 .no-list-style {
   list-style: none; 
@@ -81,5 +82,16 @@
   .overlay .btn{
     display: block;
     display: none;
-  } 
+  }
+
+}
+
+@media (min-width: 600px) {
+  .title-size{
+    font-size: 40px;
+  }
+  .form-size{
+    font-size: 20px;
+  }
+
 }
