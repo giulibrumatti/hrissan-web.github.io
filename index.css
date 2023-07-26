@@ -65,7 +65,6 @@
   color: #fcf9f9;
 }
 
-
 .no-list-style {
   list-style: none; 
   padding-left: 0; 
@@ -93,5 +92,6 @@
   .form-size{
     font-size: 20px;
   }
+
 
 }
