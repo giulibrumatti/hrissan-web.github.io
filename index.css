@@ -69,7 +69,7 @@
   color: var(--color-white);
 }
 
-.jumbotron{
+#propuesta .jumbotron{
   background-color: black;
   color: var(--color-white);
 
@@ -85,6 +85,9 @@ hr{
   color:var(--color-white);
 }
 
+#contactar .jumbotron{
+  background-color: white;
+}
 
 #proposito img {
   max-width: 100%;
@@ -92,6 +95,10 @@ hr{
 
 .font-black{
   color: black;
+}
+
+.copy{
+  color: var(--color-white);
 }
 
 .no-list-style {
