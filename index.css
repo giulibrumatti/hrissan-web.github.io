@@ -79,8 +79,7 @@ hr{
   background-color: var(--color-white);
 }
 
-
-#proposito {
+#proposito , #proposito .jumbotron{
   background-color: var(--color-red-terciario);
   color:var(--color-white);
 }
