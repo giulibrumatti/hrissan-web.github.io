@@ -14,6 +14,10 @@
   --color-white: #fcf9f9;
 }
 
+body{
+  background-color: #3D0000;;
+}
+
 
 .btn-hrissan:hover {
   background-color: var(--color-red-primario);
@@ -63,7 +67,7 @@
 }
 
 #footer {
-  background-color: black
+  background-color: #000000
 }
 
 #footer a, #carousel p {
@@ -71,16 +75,20 @@
 }
 
 #propuesta .jumbotron{
-  background-color: black;
+  background-color: #000000;
   color: var(--color-white);
+}
 
+#feedback .jumbotron{
+  background-color:#000000;
+  color: var(--color-white);
 }
 
 hr{
   background-color: var(--color-white);
 }
 
-#proposito , #proposito .jumbotron{
+#proposito .jumbotron{
   background-color: var(--color-red-terciario);
   color:var(--color-white);
 }
