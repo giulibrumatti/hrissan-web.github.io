@@ -11,17 +11,17 @@
   --color-red-secundario: #b62f38;
   --color-red-terciario: #BC444D;
   --color-trans-fondo: rgba(0, 0, 0, 0.5);
-  --color-white: #fcf9f9;
+  --color-white: #F5EDED;
 }
 
 body{
-  background-color: #3D0000;;
+  background-color: #040303;;
 }
 
 
 .btn-hrissan:hover {
   background-color: var(--color-red-primario);
-  color: #fcf9f9;
+  color: #F5EDED;
 }
 
 .link-form{
@@ -74,27 +74,17 @@ body{
   color: var(--color-white);
 }
 
-#propuesta .jumbotron{
-  background-color: #000000;
+.jumbotron{
+  background-color: #040303;
   color: var(--color-white);
 }
 
-#feedback .jumbotron{
-  background-color:#000000;
-  color: var(--color-white);
+#nosotros h2, #cursos h2{
+  color: #b62f38;
 }
 
 hr{
   background-color: var(--color-white);
-}
-
-#proposito .jumbotron{
-  background-color: var(--color-red-terciario);
-  color:var(--color-white);
-}
-
-#contactar .jumbotron{
-  background-color: white;
 }
 
 #proposito img {
@@ -102,7 +92,7 @@ hr{
 }
 
 .font-black{
-  color: black;
+  color: #000000;
 }
 
 .copy{
