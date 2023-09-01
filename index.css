@@ -79,7 +79,7 @@ body{
   color: var(--color-white);
 }
 
-#nosotros h2, #cursos h2{
+.title-size{
   color: #b62f38;
 }
 
@@ -115,6 +115,22 @@ hr{
   .overlay .btn{
     display: block;
     display: none;
+  }
+
+  p{
+    font-size: 10px;
+  }
+
+  #footer{
+    font-size: 10px;
+  }
+
+  #contacto .img-icons{
+    width: 50px;
+  }
+
+  #footer .img-icons{
+    width: 20px;
   }
 
 }
