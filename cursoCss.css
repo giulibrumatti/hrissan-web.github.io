@@ -4,3 +4,8 @@
 .title-size{
     font-size: 60px;
 }
+
+.list-curso{
+    list-style-type: none;
+    color:#b62f38
+}
