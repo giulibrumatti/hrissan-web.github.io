@@ -7,33 +7,35 @@
 }
 
 :root{
-  --color-red-primario: #b83a43;
-  --color-red-secundario: #b62f38;
-  --color-red-terciario: #BC444D;
-  --color-trans-fondo: rgba(0, 0, 0, 0.5);
-  --color-white: #F5EDED;
+  --red-pri: #b83a43;
+  --red-sec: #b62f38;
+  --red-ter: #BC444D;
+  --fondo: rgba(0, 0, 0, 0.5);
+  --white-new: #F5EDED;
+  --black-new: #040303;
+  --black: #000000;
 }
 
 body{
-  background-color: #040303;;
+  background-color: var(--black-new);
 }
 
 
 .btn-hrissan:hover {
-  background-color: var(--color-red-primario);
-  color: #F5EDED;
+  background-color: var(--red-pri);
+  color: var(--white-new);
 }
 
 .link-form{
-  color: var(--color-red-secundario);
+  color: var(--red-sec);
 }
 
 .link-form:hover{
-  color: var(--color-red-primario);
+  color: var(--red-pri);
 }
 
 #header .abajo{
-  background-color: var(--color-trans-fondo);
+  background-color: var(--fondo);
 
 }
 
@@ -53,8 +55,8 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--color-trans-fondo);
-  color: var(--color-white);
+  background-color: var(--fondo);
+  color: var(--white-new);
 }
 
 #carousel .overlay .container,
@@ -63,28 +65,28 @@ body{
 }
 
 .title-style{
-  color: var(--color-red-secundario);
+  color: var(--red-sec);
 }
 
 #footer {
-  background-color: #000000
+  background-color: var(--black);
 }
 
 #footer a, #carousel p {
-  color: var(--color-white);
+  color: var(--white-new);
 }
 
 .jumbotron{
-  background-color: #040303;
-  color: var(--color-white);
+  background-color: var(--black-new);
+  color: var(--white-new);
 }
 
 .title-size{
-  color: #b62f38;
+  color: var(--red-sec);
 }
 
 hr{
-  background-color: var(--color-white);
+  background-color: var(--white-new);
 }
 
 #proposito img {
@@ -92,11 +94,11 @@ hr{
 }
 
 .font-black{
-  color: #000000;
+  color: var(--black);
 }
 
 .copy{
-  color: var(--color-white);
+  color: var(--white-new);
 }
 
 .no-list-style {
@@ -141,14 +143,10 @@ hr{
     display: block;
     display: none;
   }
-
 }
 
 @media (min-width: 600px) {
   .logo{
     font-size: 20px;
   }
-
-
-
 }
