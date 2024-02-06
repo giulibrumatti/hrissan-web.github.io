@@ -50,9 +50,6 @@
             <li class="nav-item">
               <a class="nav-link font-weight-bold" href="#contacto">CONTACTO</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="./cursos.html">CURSOS</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -130,7 +127,8 @@
                     </p>
                   </div>
                 </div>
-                <a class="btn btn-danger btn-sm btn-lg mb-4" target="_self" href="https://docs.google.com/forms/d/1CbG8fqUFHIcFZquPiiwa9yQL1jLaVLTBniB_LkQbqAk/prefill"
+                <a class="btn btn-danger btn-sm btn-lg mb-4" target="_self"
+                  href="https://docs.google.com/forms/d/1CbG8fqUFHIcFZquPiiwa9yQL1jLaVLTBniB_LkQbqAk/prefill"
                   role="button">Ir al formulario</a>
                 <p class="">¡Únete a <span class="font-weight-bold">HR<span class="title-style">ISSAN</span></span>
                   y da
@@ -164,13 +162,11 @@
                             <img class="d-block w-100" src="./images/Proposito 3.png" alt="Third slide">
                           </div>
                         </div>
-                        <a class="carousel-control-prev" href="#miCarousel" role="button"
-                          data-slide="prev">
+                        <a class="carousel-control-prev" href="#miCarousel" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#miCarousel" role="button"
-                          data-slide="next">
+                        <a class="carousel-control-next" href="#miCarousel" role="button" data-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
@@ -186,132 +182,159 @@
       </section>
     </section>
     <!-- /Nosotros -->
-    <!-- Contacto -->
+    <!-- Redes -->
     <section id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <div class="jumbotron">
-              <h2 class="font-weight-bold title-size">CONTACTO</h2>
-              <hr class="my-4">
-              <p class="font-weight-bold">Podes interactuar con nosotros en nuestras redes sociales o coordinar una
-                charla ingresando a nuestro calendly
-              </p>
-              <div class="row text-center">
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                  <a href="https://www.instagram.com/_hrissan/">
-                    <img class="img-icons" width="100" src="./images/icons8-instagram-240.png" alt="Logo instragram">
-                  </a>
-                  <a class="badge-dark" href="https://www.instagram.com/_hrissan/">
-                    <p class="my-3 font-weight-bold">Instragram</p>
-                  </a>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                  <a href="https://www.linkedin.com/company/hrissan/">
-                    <img class="img-icons" width="100" src="./images/icons8-linkedin-240.png" alt="Logo LinkedIn">
-                  </a>
+      <section id="form">
+        <div class="container">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col text-center">
+                <h2 class="font-weight-bold title-size">CONTACTO</h2>
+                <hr class="my-4">
+                <div class="row">
+                  <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form id="form">
+                      <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                          <input class="form-control" type="text" name="email_id" id="email_id" placeholder="Email"
+                            required>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                          <input class="form-control" type="text" name="from_name" id="from_name" placeholder="Nombre"
+                            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col">
+                          <textarea type="text" class="form-control form-control-lg" name="message" id="message"
+                            placeholder="Mensaje" required></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row mb-4">
+                        <div class="col">
+                          <small id="alert_id" class="form-text"></small>
+                        </div>
+                      </div>
 
-                  <a class="badge-dark" href="https://www.linkedin.com/company/hrissan/">
-                    <p class="my-3 font-weight-bold">LinkedIn</p>
-                  </a>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                  <a href="https://calendly.com/hrissan">
-                    <img class="img-icons" width="100" src="./images/icons8-calendario-96.png" alt="Logo calendario">
-                  </a>
-                  <a class="badge-dark" href="https://calendly.com/hrissan">
-                    <p class="my-3 font-weight-bold">Calendly</p>
-                  </a>
+                      <div class="form-row">
+                        <div class="col">
+                          <input id="button" type="submit" class="btn btn-light" value="Enviar">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
-              <div class="row text-center">
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                  <a href="">
-                    <img class="img-icons" width="100" src="./images/icons8-correo-94.png" alt="Logo correo">
-                  </a>
-                  <a class="badge-dark" href="">
-                    <p class="my-3 font-weight-bold">Correo</p>
-                  </a>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                  <a href="https://docs.google.com/forms/d/1CbG8fqUFHIcFZquPiiwa9yQL1jLaVLTBniB_LkQbqAk/prefill">
-                    <img class="img-icons" width="100" src="./images/icons8-formulario-100.png" alt="Logo formulario">
-                  </a>
-                  <a class="badge-dark" href="https://docs.google.com/forms/d/1CbG8fqUFHIcFZquPiiwa9yQL1jLaVLTBniB_LkQbqAk/prefill">
-                    <p class="my-3 font-weight-bold">Formulario</p>
-                  </a>
+            </div>
+          </div>
+
+      </section>
+      <section id="redes">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <div class="jumbotron">
+                <h2 class="font-weight-bold title-size">REDES SOCIALES</h2>
+                <hr class="my-4">
+                <p class="font-weight-bold">Podes interactuar con nosotros en nuestras redes sociales o coordinar una
+                  charla ingresando a nuestro calendly
+                </p>
+                <div class="row text-center">
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <a href="https://www.instagram.com/_hrissan/">
+                      <img class="img-icons" width="100" src="./images/icons8-instagram-240.png" alt="Logo instragram">
+                    </a>
+                    <a class="badge-dark" href="https://www.instagram.com/_hrissan/">
+                      <p class="my-3 font-weight-bold">Instragram</p>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <a href="https://www.linkedin.com/company/hrissan/">
+                      <img class="img-icons" width="100" src="./images/icons8-linkedin-240.png" alt="Logo LinkedIn">
+                    </a>
+
+                    <a class="badge-dark" href="https://www.linkedin.com/company/hrissan/">
+                      <p class="my-3 font-weight-bold">LinkedIn</p>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <a href="https://calendly.com/hrissan">
+                      <img class="img-icons" width="100" src="./images/icons8-calendario-96.png" alt="Logo calendario">
+                    </a>
+                    <a class="badge-dark" href="https://calendly.com/hrissan">
+                      <p class="my-3 font-weight-bold">Calendly</p>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
   </main>
   <!-- /Main -->
   <!-- Footer -->
   <footer id="footer" class="pb-4 pt-4">
     <div class="container">
-        <div class="row text-center ">
+      <div class="row text-center ">
+        <div class="col-12 col-lg">
+          <a href="index.html" alt="Hrissan" title="Hrissan">
+            <img class="logo" src="./images/hrissanpag.png" alt="Hrissan logo">
+          </a>
+        </div>
+        <div class="col-12 col-lg mt-2">
+          <a class="font-weight-bold" href="index.html">Inicio</a>
+          <div class="dropdown-divider"></div>
+        </div>
+        <div class="col-12 col-lg mt-2">
+          <a class="font-weight-bold" href="index.html#nosotros">Nosotros</a>
+          <div class="dropdown-divider"></div>
+          <div class="row text-center">
             <div class="col-12 col-lg">
-                <a href="index.html" alt="Hrissan" title="Hrissan">
-                    <img class="logo" src="./images/hrissanpag.png" alt="Hrissan logo">
-                </a>
+              <ul>
+                <li class="no-list-style mb-2">
+                  <a href="#index.html#propuesta">Propuesta</a>
+                </li>
+                <li class="no-list-style">
+                  <a href="#index.html#proposito">Propósito</a>
+                </li>
+              </ul>
             </div>
-            <div class="col-12 col-lg mt-2">
-                <a class="font-weight-bold" href="index.html">Inicio</a>
-                <div class="dropdown-divider"></div>
-            </div>
-            <div class="col-12 col-lg mt-2">
-                <a class="font-weight-bold" href="index.html#nosotros">Nosotros</a>
-                <div class="dropdown-divider"></div>
-                <div class="row text-center">
-                    <div class="col-12 col-lg">
-                        <ul>
-                            <li class="no-list-style mb-2">
-                                <a href="#index.html#propuesta">Propuesta</a>
-                            </li>
-                            <li class="no-list-style">
-                                <a href="#index.html#proposito">Propósito</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg mt-2">
-                <a class="font-weight-bold" href="https://forms.gle/3sNpbAdrs9Lhgwrx9">Contacto</a>
-                <div class="dropdown-divider"></div>
-                <div class="row text-center">
-                    <div class="col-12 col-lg">
-                        <ul>
-                            <li class="no-list-style">
-                                <a href="https://www.linkedin.com/company/hrissan" alt="Icono LinkInd"
-                                    target="_blank"><img class="" src="./images/icons8-linkedin (3).svg"
-                                        alt="Icono WhatsApp"></a>
-                                <a href="https://www.instagram.com/_hrissan" alt="Icono Instagram"
-                                    target="_blank"><img class="" src="./images/icons8-instagram (1).svg"
-                                        alt="Icono Instagram"></a>
-                                <a href="https://api.whatsapp.com/send?phone=+541130270172&text=Hola%20HRissan!%20Tengo%20una%20consulta%20sobre%20"
-                                    alt="Icono WhatsApp" target="_blank"><img class=""
-                                        src="./images/icons8-whatsapp (2).svg" alt="Icono Instagram"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg mt-2">
-                <a class="font-weight-bold" href="#cursos">Cursos</a>
-                <div class="dropdown-divider"></div>
-            </div>
+          </div>
         </div>
-        <div class="dropdown-divider mt-4"></div>
-        <div class="row text-center">
-            <div class="copy col-12 col-lg ">
-                <p>© 2023 Copyright - Brumatti</p>
+        <div class="col-12 col-lg mt-2">
+          <a class="font-weight-bold" href="https://forms.gle/3sNpbAdrs9Lhgwrx9">Contacto</a>
+          <div class="dropdown-divider"></div>
+          <div class="row text-center">
+            <div class="col-12 col-lg">
+              <ul>
+                <li class="no-list-style">
+                  <a href="https://www.linkedin.com/company/hrissan" alt="Icono LinkInd" target="_blank"><img class=""
+                      src="./images/icons8-linkedin (3).svg" alt="Icono WhatsApp"></a>
+                  <a href="https://www.instagram.com/_hrissan" alt="Icono Instagram" target="_blank"><img class=""
+                      src="./images/icons8-instagram (1).svg" alt="Icono Instagram"></a>
+                  <a href="https://api.whatsapp.com/send?phone=+541130270172&text=Hola%20HRissan!%20Tengo%20una%20consulta%20sobre%20"
+                    alt="Icono WhatsApp" target="_blank"><img class="" src="./images/icons8-whatsapp (2).svg"
+                      alt="Icono Instagram"></a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+        <div class="col-12 col-lg mt-2">
+          <a class="font-weight-bold" href="#cursos">Cursos</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </div>
+      <div class="dropdown-divider mt-4"></div>
+      <div class="row text-center">
+        <div class="copy col-12 col-lg ">
+          <p>© 2023 Copyright - Brumatti</p>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
   <!-- /Footer -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -324,6 +347,7 @@
     crossorigin="anonymous"></script>
   <script src="index.js"></script>
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <script src="formJS.js"></script>
 </body>
 
 </html>
